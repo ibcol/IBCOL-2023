@@ -20,8 +20,15 @@
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg fixed-top" id="tm-nav"><a href="index.html" class="logo"><img src="img/logo1.png" alt="" class="navbar-brand"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-supported-content" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbar-supported-content"><ul class="navbar-nav mb-2 mb-lg-0"><li class="nav-item selected"><a class="nav-link" aria-current="page" href="index.html" data-no="1">Home</a></li><li class="nav-item"><a class="nav-link" href="about.html" data-no="3">About</a></li><li class="nav-item"><a class="nav-link" href="rules.html" data-no="3">Rules</a></li><li class="nav-item"><a class="nav-link" href="usecases.html" data-no="3">Use Cases</a></li><li class="nav-item"><a class="nav-link" href="final.html" data-no="3">Final Event</a></li><li class="nav-item"><a class="nav-link" href="faq.html" data-no="4">FAQ</a></li><li class="nav-item"><a class="nav-link" href="contact.html" data-no="2">Contact</a></li><li style="padding:5px 10px 0 10px"><a href="registrar.html"><button class="btn-main-sm" class="btn btn-main-sm animated fadeInUp btn-round-full" type="button">REGISTER NOW</button></a></li></ul></div></nav>
-
+    <nav class="navbar navbar-expand-lg fixed-top" id="tm-nav"><a href="index.html" class="logo"><img src="img/logo1.png" alt="" class="navbar-brand"></a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-supported-content" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbar-supported-content"><ul class="navbar-nav mb-2 mb-lg-0"><li class="nav-item selected"><a class="nav-link" aria-current="page" href="index.html" data-no="1">Home</a></li><li class="nav-item"><a class="nav-link" href="about.html" data-no="3">About</a></li><li class="nav-item"><a class="nav-link" href="rules.html" data-no="3">Rules</a></li><li class="nav-item"><a class="nav-link" href="usecases.html" data-no="3">Use Cases</a></li><li class="nav-item dropdown"><a class="nav-link" href="final.html" id="final-event-dropdown" role="button">Final Event</a><ul class="dropdown-menu" aria-labelledby="final-event-dropdown"><li><a class="nav-link dropdown-item" href="Travel To Amsterdam.html">Travel To Amsterdam</a></li><li><a class="nav-link dropdown-item" href="Visa Requirement Page.html">Visa Requirement Page</a></li></ul></li><li class="nav-item"><a class="nav-link" href="faq.html" data-no="4">FAQ</a></li><li class="nav-item"><a class="nav-link" href="contact.html" data-no="2">Contact</a></li><li style="padding:5px 10px 0 10px"><a href="registrar.html"><button class="btn-main-sm" class="btn btn-main-sm animated fadeInUp btn-round-full" type="button">REGISTER NOW</button></a></li></ul></div></nav>
+    <style>
+        .navbar-nav .dropdown-menu {
+            display: none;
+        }
+        .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+            display: block;
+        }
+    </style>
     <!-- Beginning of the Main Content-->
 
     <!--Video Background Start -->
@@ -52,7 +59,7 @@
     <!--[Section] CTA End -->
 
     <!--[Section] Body Start -->
-    <section class="about-2 section bg-dark" style="opacity: 95%;" id="about">
+    <section style="margin-bottom: -7%;" class="about-2 section bg-dark" style="opacity: 95%;" id="about">
       <div class="col-md-12 text-center">
     </div>
         <div class="container">
@@ -74,23 +81,34 @@
 
                         Some <b>examples</b> of countries whose citizens <b>need a visa</b> to enter the Netherlands include:<br><br>
 
-                        - Afghanistan 🇦🇫 <br>
-                        - Bangladesh 🇧🇩 <br>
-                        - China 🇨🇳 <br>
-                        - India 🇮🇳 <br>
-                        - Iraq 🇮🇶 <br> 
-                        - Nigeria 🇳🇬 <br> 
-                        - Pakistan 🇵🇰 <br> 
-                        - The Philippines 🇵🇭 <br> 
-                        - Russia 🇷🇺 <br>
-                        - Saudi Arabia 🇸🇦 <br>
-                        - Turkey 🇹🇷 <br>
-                        - Ukraine 🇺🇦 <br><br>
+                        <style>
+                            .flag-icon {
+                              width: 20px;
+                              height: 14px;
+                              margin-right: 5px;
+                              margin-left: 5px;
+                            }
+                          </style>
+
+                       <li><img class="flag-icon" src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Flag_of_Afghanistan_%282013%E2%80%932021%29.svg" alt="Afghanistan"> Afghanistan</li>
+                        <li><img class="flag-icon" src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Flag_of_Bangladesh.svg" alt="Bangladesh"> Bangladesh</li>
+                        <li><img class="flag-icon" src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg" alt="China"> China</li>
+                        <li><img class="flag-icon" src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" alt="India"> India</li>
+                        <li><img class="flag-icon" src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Flag_of_Iraq.svg" alt="Iraq"> Iraq</li>
+                        <li><img class="flag-icon" src="https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_Nigeria.svg" alt="Nigeria"> Nigeria</li>
+                        <li><img class="flag-icon" src="https://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Pakistan.svg" alt="Pakistan"> Pakistan</li>
+                        <li><img class="flag-icon" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_the_Philippines.svg" alt="The Philippines"> The Philippines</li>
+                        <li><img class="flag-icon" src="https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg" alt="Russia"> Russia</li>
+                        <li><img class="flag-icon" src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg" alt="Saudi Arabia"> Saudi Arabia</li>
+                        <li><img class="flag-icon" src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg" alt="Turkey"> Turkey</li>
+                        <li><img class="flag-icon" src="https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Ukraine.svg" alt="Ukraine"> Ukraine</li> <br>
+                      
 
                         <b>Additionally</b>, even if you do not need a visa to enter the Netherlands, you may need to meet other requirements, such as having a valid passport or travel insurance.<br>
                         <b>Note</b> there are no travel restrictions related to COVID in Amsterdam. The Government of the Netherlands has decided to lift all travel restrictions related to the Coronavirus:<br>
+                          <br>
 
-                        <a href="https://www.government.nl/topics/coronavirus-covid-19/visiting-the-netherlands-from-abroad">Click Here To Know More!</a><br><br>
+                        <a href="https://www.government.nl/topics/coronavirus-covid-19/visiting-the-netherlands-from-abroad">Click Here To Know More!</a><br>
                         
                     </p>
                     
@@ -119,7 +137,7 @@
                     
                 </div>
                 <hr>
-            <!--
+            
                 <div class="col-12 col-md-4">
                     <h1>How to get to Amsterdam</h1>
                 </div>
