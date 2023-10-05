@@ -19,6 +19,20 @@
 }
 
 
+/* Rules */
+li.rule{padding:10px}
+ol.rules{list-style:decimal;padding-left:20px;}
+ul.rules{list-style:square;padding-left:20px;}
+.tg{border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:#ccc;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:#ccc;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-lboi{border-color:inherit;text-align:left;vertical-align:middle}
+.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-g7sd{border-color:inherit;font-weight:bold;text-align:left;vertical-align:middle}
+
+
 
 
 
@@ -558,7 +572,8 @@ table, th, td {
     font-size: 12px;
   }
   .btn-main-sm2 {
-    padding: 8px 20px;
+    padding: 12px 24px;
+    margin: 18px 0;
     font-size: 12px;
   }
   
