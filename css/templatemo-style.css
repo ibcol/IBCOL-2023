@@ -19,6 +19,21 @@
 }
 
 
+
+/* Homepage */
+
+/* Center the video */
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.video-container video {
+  width: 100%;
+  height: auto;
+}
+
 /* Rules */
 li.rule{padding:10px}
 ol.rules{list-style:decimal;padding-left:20px;}
