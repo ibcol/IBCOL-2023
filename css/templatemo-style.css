@@ -20,7 +20,14 @@
 
 
 
-/* Homepage */
+/* === Homepage === */
+
+.navbar-nav .dropdown-menu {
+    display: none;
+}
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
 
 /* Center the video */
 .video-container {
@@ -34,7 +41,17 @@
   height: auto;
 }
 
-/* Rules */
+.flag-icon {
+  width: 20px;
+  height: 14px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+
+
+/* === Rules === */
+
 li.rule{padding:10px}
 ol.rules{list-style:decimal;padding-left:20px;}
 ul.rules{list-style:square;padding-left:20px;}
@@ -46,9 +63,6 @@ ul.rules{list-style:square;padding-left:20px;}
 .tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:middle}
 .tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
 .tg .tg-g7sd{border-color:inherit;font-weight:bold;text-align:left;vertical-align:middle}
-
-
-
 
 
 
